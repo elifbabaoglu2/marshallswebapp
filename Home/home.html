@@ -1,67 +1,74 @@
 <html lang="en">
-<head>
-  <meta charset="utf-8">
+    <head>
+        <meta charset="utf-8" />
 
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
+        <title>The HTML5 Herald</title>
+        <meta name="description" content="The HTML5 Herald" />
+        <meta name="author" content="SitePoint" />
 
-  <link rel="stylesheet" href="home.css">
- 
+        <link rel="stylesheet" href="home.css" />
+    </head>
 
-</head>
+    <body class="background">
+        <div>
+            <script src="js/scripts.js"></script>
+            <div class="container">
+                <div class="center">
+                    <img
+                        src="owl.png"
+                        alt="Girl in a jacket"
+                        width="auto"
+                        height="200"
+                    />
+                </div>
+            </div>
 
-<body class= "background">
-  <div >
-  <script src="js/scripts.js"></script>
-  <div class="container">
-    <div class="center">
-    <img src="owl.png" alt="Girl in a jacket" width="auto" height="200">
-    </div>
-  </div>
+            <div class="button-section">
+                <div class="button-8">
+                    <div class="eff-8"></div>
+                    <a href="#"> Touch me </a>
+                </div>
+                <div style="margin-right: 50px">
+                    <button
+                        type="button"
+                        id="option2"
+                        style="width: 150px; height: 40px"
+                    >
+                        About
+                    </button>
+                </div>
 
-  <div class = "button-section">
+                <div>
+                    <button
+                        type="button"
+                        id="option3"
+                        style="width: 150px; height: 40px"
+                    >
+                        Contact
+                    </button>
+                </div>
 
-
-    <div style ='margin-right: 50px'>
-  <button type = "button" id = "option2" style = "width:150px ; height:40px"> About </button>
-    </div> 
-
-
-
-
-    <div>
-      <button type = "button" id = "option3" style = "width:150px ; height:40px"> Contact </button>
-
-    </div>
-
-
-
-    <div style = "margin-left: 50px;">
-      <button type = "button" id = "option1" style = "width:150px ; height:40px">3rd Page</button>
-
-    </div>
-
-
-
-
-
-
-
-    
-  </div>
-
-</div>
-</body>
-<script type="text/javascript">
-  document.getElementById("option1").onclick = function () {
-      location.href = "./otherPage.html";
-  };
-  document.getElementById("option2").onclick = function () {
-      location.href = "./about.html";
-  };
-  document.getElementById("option3").onclick = function () {
-      location.href = "./contact.html";
-  };
-</script>
+                <div style="margin-left: 50px">
+                    <button
+                        type="button"
+                        id="option1"
+                        style="width: 150px; height: 40px"
+                    >
+                        3rd Page
+                    </button>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript">
+        document.getElementById('option1').onclick = function () {
+            location.href = './otherPage.html';
+        };
+        document.getElementById('option2').onclick = function () {
+            location.href = './about.html';
+        };
+        document.getElementById('option3').onclick = function () {
+            location.href = './contact.html';
+        };
+    </script>
 </html>
