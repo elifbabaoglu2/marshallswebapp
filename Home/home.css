@@ -3,6 +3,10 @@
     position: relative;
 }
 
+body{
+   font-family : "Courier New" !important;
+}
+
 .center {
     margin: 0;
     position: absolute;
@@ -32,6 +36,14 @@ html {
     justify-content: center;
 }
 
+.button-section-other-page {
+    height: 60px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    margin-left:10%;
+}
+
 .title {
     height: 20%;
     width: 100%;
@@ -42,6 +54,16 @@ html {
     text-align: center;
     font-size: 60px;
 }
+
+.titleOtherPage {
+    height: 20%;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    font-size: 60px;
+    margin-left: 10%;
+}
+
 .text {
     max-width: 600px;
     height: 100%;
@@ -61,6 +83,7 @@ html {
 
 .background {
     background-image: url('webb.png');
+    font-family : "Courier New" !important;
 }
 
 .intro {
@@ -375,17 +398,16 @@ html {
 .button-8 {
     width: 140px;
     height: 50px;
-    border: 2px solid #34495e;
+    border: 2px solid #020B36;
     float: left;
     text-align: center;
     cursor: pointer;
     position: relative;
     box-sizing: border-box;
     overflow: hidden;
-    margin: 0 0 40px 50px;
 }
 .button-8 a {
-    font-family: arial;
+    font-family : "Courier New" !important;
     font-size: 16px;
     color: #fff;
     text-decoration: none;
@@ -397,24 +419,24 @@ html {
 .eff-8 {
     width: 140px;
     height: 50px;
-    border: 70px solid #34495e;
+    border: 70px solid #020B36;
     position: absolute;
     transition: all 0.5s ease;
     z-index: 1;
     box-sizing: border-box;
 }
 .button-8:hover .eff-8 {
-    border: 0px solid #34495e;
+    border: 0px solid #020B36;
 }
 .button-8:hover a {
-    color: #34495e;
+    color: #020B36;
 }
 
 h1 {
     font-family: 'Oswald', sans-serif;
     font-weight: normal;
     font-size: 24px;
-    color: #34495e;
+    color: #020B36;
     text-align: center;
     margin: 0 auto 40px 0;
 }
